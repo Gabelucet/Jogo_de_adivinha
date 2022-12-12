@@ -1,5 +1,6 @@
 body{
     background-color: gray;
+    font-family: Diplomata SC;    
 }
 
 .titulo h1{
@@ -9,23 +10,36 @@ body{
     text-transform: uppercase;
     color: black;
     margin: 0,5em;
+    font-family: Diplomata SC;
 }
 
 .titulo h2{
-    margin:1em;
+    margin:1em 0 0.5em;
     font-size: 2em;
     text-align: center;
     text-transform: uppercase;
     color: black;
     margin: 0,5em;
+    
 }
 
 .regras li{
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     color: black;
     list-style: none;
     margin: 1.0em;   
+}
+
+h3{
+    font-weight: bold;
+    margin:1em;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin: 0,5em;
+    font-family: Diplomata SC;
 }
 
 .jogo{
