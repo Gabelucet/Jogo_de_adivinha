@@ -1,0 +1,47 @@
+body{
+    background-color: gray;
+}
+
+.titulo h1{
+    margin:1em;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin: 0,5em;
+}
+
+.titulo h2{
+    margin:1em;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin: 0,5em;
+}
+
+.regras li{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    list-style: none;
+    margin: 1.0em;   
+}
+
+.jogo{
+    text-align: center;
+    color: black;
+    margin: 0.5em;   
+}
+
+.jogo input{
+    padding:0.5em 1em;
+    text-align: center;
+    font-size: 1em;
+    background-color: rgb(202, 202, 202);
+}
+.jogo button{
+    margin-top: 1em;
+    padding:0.5em 1em;
+    background-color: rgb(202, 202, 202);
+}
