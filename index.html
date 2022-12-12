@@ -21,6 +21,7 @@
     <div class="regras">          
         <p>
              <ol>
+                <li>Os números variam de 0 a 10</li>
                 <li>Você terá 3 chances de acertar os números;</li>
                 <li>Os números são escolhidos de forma aleatoria;</li>
                 <li>São escolhidos 3 números secretos;</li>
@@ -63,36 +64,36 @@
                         numero++;
                     }
 
-                    
+                        
                 }
                 return segredos;
             }
 
-            var segredos = sorteiaNumeros(3);
-            console.log(segredos)
-            
-            var input = document.querySelector("input");
-            input.focus();
-
-            function verifica(){
-
-                var achou = false;
-
-                for(var posicao = 0; posicao < segredos.length; posicao++){
-                    
-                    if(input.value == segredos[posicao]){
-
-                        alert("Você Acertou");
-                        achou = true;
-                        break;
-                    }
-                }
-                if(achou == false){
-                    alert("Você errou");                   
-                }
-
-                input.value = "";
+                var segredos = sorteiaNumeros(3);
+                console.log(segredos)
+                
+                var input = document.querySelector("input");
                 input.focus();
+
+                function verifica(){
+
+                    var achou = false;
+
+                    for(var posicao = 0; posicao < segredos.length; posicao++){
+                        
+                        if(input.value == segredos[posicao]){
+
+                            alert("Você Acertou");
+                            achou = true;
+                            break;
+                        }
+                    }
+                    if(achou == false){
+                        alert("Você errou");                   
+                    }
+
+                    input.value = "";
+                    input.focus();
                 
             }
 
